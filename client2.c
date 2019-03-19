@@ -24,7 +24,7 @@ int main() {
     memset(&server.sin_zero, 0, 8);
 
     struct addrinfo *ai;
-    char * hostname = "LAPTOP-L78L3832";
+    char * hostname = "knolu@LAPTOP-L78L3832";
 
     /* this call declares memory and populates ailist */
     getaddrinfo(hostname, NULL, NULL, &ai);
